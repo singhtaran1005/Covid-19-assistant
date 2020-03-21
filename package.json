@@ -1,0 +1,23 @@
+{
+  "name": "functions",
+  "description": "Corona virus assistant app",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "firebase-admin": "^5.13.1",
+    "firebase-functions": "^2.0.2"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.1.6"
+  },
+  "private": true
+}
